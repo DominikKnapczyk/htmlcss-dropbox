@@ -14,6 +14,8 @@ body,
 html {
 	min-height: 100vh;
 	min-width: 1200px;
+
+	height: 4000px;
 }
 
 img,
@@ -22,3 +24,4 @@ picture,
 video {
 	max-width: 100%;
 }
+
