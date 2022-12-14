@@ -7,7 +7,6 @@ nav {
   align-items: center;
   justify-content: center;
 		
-  background-color: yellow;
   height: 80px;
 }
 
@@ -18,7 +17,6 @@ nav {
 
   width: 95%;
   height: 50px;
-  background-color: greenyellow;
 }
 
 .nav-left-section,
@@ -34,3 +32,51 @@ nav {
   padding-right: 10px;
 }
 
+/* JUMBOTRON */
+
+.jumbotron {
+  display: flex;
+  align-items: flex-end;
+
+  background-color: #B4D0E7;
+  height: 750px;
+  width: 100%;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  width: 35%;
+  margin-top: 15px;
+
+  text-align: 
+}
+
+.text-container > button {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.text-container > span {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.text-container > i {
+  position: relative;
+  top: 60px;
+
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.image-container {
+  position: relative;
+  top: 80px;
+
+  width: 65%;
+}

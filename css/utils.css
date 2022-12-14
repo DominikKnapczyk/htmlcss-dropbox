@@ -15,6 +15,16 @@ a {
 	padding:  0 20px;
 }
 
+h1 {
+	font-size: 75px;
+	font-weight: 800;
+}
+
+span {
+	display: block;
+}
+
+
 .blue-button {
   padding: 10px 15px ;
   border: none;
@@ -27,7 +37,8 @@ a {
 }
 
 .container {
-	max-width: 1200px;
+
+  width: 1200px;
 	margin: 0 auto;
 }
 
