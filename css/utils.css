@@ -1,5 +1,31 @@
 /* Utils */
 
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	padding:  0 20px;
+}
+
+.blue-button {
+  padding: 10px 15px ;
+  border: none;
+  color: #ffff;
+	background-color: #0061FF;
+}
+
+.blue-button:hover {
+	cursor: pointer;
+}
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;

@@ -1,0 +1,36 @@
+/*HEADER*/
+
+/*NAV*/
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+		
+  background-color: yellow;
+  height: 80px;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+
+  width: 95%;
+  height: 50px;
+  background-color: greenyellow;
+}
+
+.nav-left-section,
+.nav-right-section {
+  display: flex;
+  align-items: center;
+  
+  height: 100%;
+  min-width: 70px;
+}
+
+.nav-left-section > img {
+  padding-right: 10px;
+}
+
