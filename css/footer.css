@@ -67,8 +67,8 @@ span, i:hover {
   cursor: pointer;
 }
 
-.bottom-footer-container  
-span, i {
+.bottom-footer-container span, 
+.bottom-footer-container i {
   color: darkgrey;
   padding-right: 3px;
 }
