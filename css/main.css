@@ -1,3 +1,4 @@
+
 /* GENERAL */
 
 main {
@@ -50,3 +51,93 @@ main {
   height: 210px;
 }
 
+/* MEMBERS SECTION */
+
+.members-section {
+ 
+display: flex;
+justify-content: center;
+  
+min-height: 400px;
+height: 30vw;
+max-height: 800px;
+
+}
+
+.members-info {
+  display: flex;
+  flex-direction: column;
+
+  width: 40vw;
+
+  max-width: 1000px;
+  background-color: #f5f5f5;
+
+  padding: 3%;
+}
+
+.members-info-image {
+  width: 50%;
+}
+
+.members-column {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 400px;
+  width: 30vw;
+  max-width: 750px;
+
+}
+
+.members-row {
+  display: flex;  
+  height: 50%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+  height: 100%;
+}
+
+.box-image {
+  width: 50%;
+  filter: invert(100%);
+}
+
+.designit{
+  background-color: #a2d39b;
+  border: 15px solid #d1e9cd; 
+}
+
+.asu {
+  background-color: #61082b;
+}
+
+.uf {
+  background-color: #0093ce;
+}
+
+.topps {
+  background-color: #ff1c1c;
+}
+
+.wbr {
+  background-color: #8a2be2;
+}
+
+.hearst {
+  background-color: #b4d0e7;
+}
+
+.lonely {
+  background-color: #0d2481;
+}
+
+.channel {
+  background-color: #ffd830;
+}
