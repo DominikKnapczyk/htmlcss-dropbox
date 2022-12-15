@@ -43,9 +43,12 @@ nav {
   display: flex;
   align-items: flex-end;
 
-  background-color: #B4D0E7;
   height: 750px;
   width: 100%;
+
+  padding-left: 20px;
+
+  background-color: #B4D0E7;
 }
 
 .jumbotron-container {

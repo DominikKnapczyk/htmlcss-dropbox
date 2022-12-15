@@ -84,12 +84,25 @@ h3 {
 	cursor: pointer;
 }
 
+.white-button {
+  padding: 10px 40px ;
+  border: none;
+  color: black;
+	background-color: #ffffff;
+	font-size: 15px;
+}
+
+.white-button:hover {
+	cursor: pointer;
+}
+
 /* CONTAINTERS */
 
 section {
 
   width: 1000px;
 	margin: 0 auto;
+	padding: 0;
 }
 
 .container {
