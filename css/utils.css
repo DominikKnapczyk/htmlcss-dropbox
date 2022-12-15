@@ -3,7 +3,7 @@
 /* GENERAL */
 
 * {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: black;
 	
 }
@@ -23,7 +23,7 @@ li {
 }
 
 h1 {
-	font-size: 75px;
+	font-size: 80px;
 	font-weight: 800;
 }
 
@@ -45,6 +45,10 @@ h3 {
 	color: gray;
 }
 
+.dark-grey {
+	color: darkgrey;
+}
+
 .blue {
 	color: blue;
 }
@@ -60,6 +64,18 @@ h3 {
 }
 
 .blue-button:hover {
+	cursor: pointer;
+}
+
+.trasparent-button {
+  padding: 10px 15px ;
+  border: 1px solid black;
+  color: black;
+	background-color: transparent;
+	font-size: 15px;
+}
+
+.trasparent-button:hover {
 	cursor: pointer;
 }
 
@@ -123,6 +139,11 @@ section {
 .margin-v2 {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.margin-v3 {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .margin-v4 {

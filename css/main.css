@@ -37,12 +37,20 @@ main {
   font-size: 15px;
 }
 
-.bot-card  .blue-button {
+.bot-card .blue-button {
   font-size: 14px;
-  padding: 10px 40px;
+  width: 235px;
 }
 
 .enterprise .blue-button {
   padding: 10px 88px;
+}
+
+.card-big span{
+  max-width: 650px;
+}
+
+.card-big .bot-card {
+  height: 210px;
 }
 
