@@ -53,38 +53,28 @@ nav {
 	margin: 0 auto;
 }
 
-.content-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.text-container {
-  width: 35%;
+.jumbotron .text-container {
   margin-top: 15px;
 }
 
-.text-container > button {
-  margin-top: 30px;
-  margin-bottom: 20px;
+.jumbotron .image-container {
+  position: relative;
+  top: 80px;
+  margin-top: 15px;
 }
 
-.text-container > span {
+
+.jumbotron span {
   font-size: 18px;
   line-height: 22px;
+
   display: block;
 }
 
-.text-container > i {
+.jumbotron i {
   position: relative;
   top: 60px;
 
   font-size: 50px;
 }
 
-.image-container {
-  position: relative;
-  top: 80px;
-
-  width: 65%;
-}

@@ -5,15 +5,11 @@ main {
   padding-top: 150px;
 }
 
-/* CARD */
+/* SECTION 1 - CARD */
 
 .card-container {
   display: flex;
   justify-content: space-between;
-}
-
-.card {
-  width: 30%;
 }
 
 .top-card {

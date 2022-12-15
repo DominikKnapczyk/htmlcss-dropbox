@@ -81,16 +81,34 @@ h3 {
 
 /* CONTAINTERS */
 
+section {
+
+  width: 1000px;
+	margin: 0 auto;
+}
+
 .container {
 
   width: 1000px;
 	margin: 0 auto;
 }
 
-section {
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  width: 1000px;
-	margin: 0 auto;
+.text-container {
+  width: 35%;
+}
+
+.image-container {
+  width: 65%;
+}
+
+.card {
+  width: 30%;
 }
 
 /* DISPLAY */
@@ -169,4 +187,19 @@ section {
 
 .margin-b4 {
 	margin-bottom: 40px;
+}
+
+.margin-t5 {
+	margin-top: 50px;
+}
+
+.margin-t10 {
+	margin-top: 100px;
+}
+
+/* PADDINGS */
+
+.padding-o {
+	padding-left: 22px;
+	padding-right: 22px;
 }
